@@ -17,6 +17,9 @@
 		0D1F5BD42839AC0E00D6D824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1F5BD32839AC0E00D6D824 /* Main.storyboard */; };
 		0D1F5BD52839AC0E00D6D824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1F5BD32839AC0E00D6D824 /* Main.storyboard */; };
 		0D1F5BD62839AC0E00D6D824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1F5BD32839AC0E00D6D824 /* Main.storyboard */; };
+		130A39F8E63EFCB681F252E4 /* Pods_DisherHackathonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF3A78A8D358FAF6A59544 /* Pods_DisherHackathonTests.framework */; };
+		DE0078C8D1278E116DF8640D /* Pods_DisherHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BA1BAF2D496CC9159591AE /* Pods_DisherHackathon.framework */; };
+		F21AA99E1554A15183F2E4F9 /* Pods_DisherHackathon_DisherHackathonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E549AFE4060C6E5FDF8E58A2 /* Pods_DisherHackathon_DisherHackathonUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,15 @@
 		0D1F5BC228399E8800D6D824 /* DisherHackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisherHackathonUITests.swift; sourceTree = "<group>"; };
 		0D1F5BC428399E8800D6D824 /* DisherHackathonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisherHackathonUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0D1F5BD32839AC0E00D6D824 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1D217D0C0F0E3C5E1939A102 /* Pods-DisherHackathonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisherHackathonTests.release.xcconfig"; path = "Target Support Files/Pods-DisherHackathonTests/Pods-DisherHackathonTests.release.xcconfig"; sourceTree = "<group>"; };
+		41BA1BAF2D496CC9159591AE /* Pods_DisherHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisherHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CF3A78A8D358FAF6A59544 /* Pods_DisherHackathonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisherHackathonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		839C88CA38CAFDEB3CDF92FB /* Pods-DisherHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisherHackathon.debug.xcconfig"; path = "Target Support Files/Pods-DisherHackathon/Pods-DisherHackathon.debug.xcconfig"; sourceTree = "<group>"; };
+		91E7B098582D114B884693E9 /* Pods-DisherHackathonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisherHackathonTests.debug.xcconfig"; path = "Target Support Files/Pods-DisherHackathonTests/Pods-DisherHackathonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E6131A5B5AFBC6008683433 /* Pods-DisherHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisherHackathon.release.xcconfig"; path = "Target Support Files/Pods-DisherHackathon/Pods-DisherHackathon.release.xcconfig"; sourceTree = "<group>"; };
+		B60B76C28A28BBBA8BD78182 /* Pods-DisherHackathon-DisherHackathonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisherHackathon-DisherHackathonUITests.debug.xcconfig"; path = "Target Support Files/Pods-DisherHackathon-DisherHackathonUITests/Pods-DisherHackathon-DisherHackathonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E549AFE4060C6E5FDF8E58A2 /* Pods_DisherHackathon_DisherHackathonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisherHackathon_DisherHackathonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70D5E205E368C3C4BB47EE8 /* Pods-DisherHackathon-DisherHackathonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisherHackathon-DisherHackathonUITests.release.xcconfig"; path = "Target Support Files/Pods-DisherHackathon-DisherHackathonUITests/Pods-DisherHackathon-DisherHackathonUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0078C8D1278E116DF8640D /* Pods_DisherHackathon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130A39F8E63EFCB681F252E4 /* Pods_DisherHackathonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21AA99E1554A15183F2E4F9 /* Pods_DisherHackathon_DisherHackathonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +97,8 @@
 				0D1F5BB728399E8800D6D824 /* DisherHackathonTests */,
 				0D1F5BC128399E8800D6D824 /* DisherHackathonUITests */,
 				0D1F5BA528399E8400D6D824 /* Products */,
+				C67B0A923B146948ABDDF574 /* Pods */,
+				4B6DCC086457557A99726BD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,30 @@
 			path = DisherHackathonUITests;
 			sourceTree = "<group>";
 		};
+		4B6DCC086457557A99726BD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41BA1BAF2D496CC9159591AE /* Pods_DisherHackathon.framework */,
+				E549AFE4060C6E5FDF8E58A2 /* Pods_DisherHackathon_DisherHackathonUITests.framework */,
+				79CF3A78A8D358FAF6A59544 /* Pods_DisherHackathonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C67B0A923B146948ABDDF574 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				839C88CA38CAFDEB3CDF92FB /* Pods-DisherHackathon.debug.xcconfig */,
+				9E6131A5B5AFBC6008683433 /* Pods-DisherHackathon.release.xcconfig */,
+				B60B76C28A28BBBA8BD78182 /* Pods-DisherHackathon-DisherHackathonUITests.debug.xcconfig */,
+				F70D5E205E368C3C4BB47EE8 /* Pods-DisherHackathon-DisherHackathonUITests.release.xcconfig */,
+				91E7B098582D114B884693E9 /* Pods-DisherHackathonTests.debug.xcconfig */,
+				1D217D0C0F0E3C5E1939A102 /* Pods-DisherHackathonTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D1F5BC828399E8800D6D824 /* Build configuration list for PBXNativeTarget "DisherHackathon" */;
 			buildPhases = (
+				EA0C046684EA3496EFBF3951 /* [CP] Check Pods Manifest.lock */,
 				0D1F5BA028399E8400D6D824 /* Sources */,
 				0D1F5BA128399E8400D6D824 /* Frameworks */,
 				0D1F5BA228399E8400D6D824 /* Resources */,
+				B45C6D69F4FFC92E09537DF0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D1F5BCB28399E8800D6D824 /* Build configuration list for PBXNativeTarget "DisherHackathonTests" */;
 			buildPhases = (
+				2F711031978F565AF247D969 /* [CP] Check Pods Manifest.lock */,
 				0D1F5BB028399E8800D6D824 /* Sources */,
 				0D1F5BB128399E8800D6D824 /* Frameworks */,
 				0D1F5BB228399E8800D6D824 /* Resources */,
@@ -174,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D1F5BCE28399E8800D6D824 /* Build configuration list for PBXNativeTarget "DisherHackathonUITests" */;
 			buildPhases = (
+				1621902E2E7B75A3202A346C /* [CP] Check Pods Manifest.lock */,
 				0D1F5BBA28399E8800D6D824 /* Sources */,
 				0D1F5BBB28399E8800D6D824 /* Frameworks */,
 				0D1F5BBC28399E8800D6D824 /* Resources */,
+				723B16FE0C9D363B790240C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1621902E2E7B75A3202A346C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisherHackathon-DisherHackathonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F711031978F565AF247D969 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisherHackathonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		723B16FE0C9D363B790240C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisherHackathon-DisherHackathonUITests/Pods-DisherHackathon-DisherHackathonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisherHackathon-DisherHackathonUITests/Pods-DisherHackathon-DisherHackathonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisherHackathon-DisherHackathonUITests/Pods-DisherHackathon-DisherHackathonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B45C6D69F4FFC92E09537DF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisherHackathon/Pods-DisherHackathon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisherHackathon/Pods-DisherHackathon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisherHackathon/Pods-DisherHackathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0C046684EA3496EFBF3951 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisherHackathon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D1F5BA028399E8400D6D824 /* Sources */ = {
@@ -419,6 +568,7 @@
 		};
 		0D1F5BC928399E8800D6D824 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839C88CA38CAFDEB3CDF92FB /* Pods-DisherHackathon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +598,7 @@
 		};
 		0D1F5BCA28399E8800D6D824 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E6131A5B5AFBC6008683433 /* Pods-DisherHackathon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +628,7 @@
 		};
 		0D1F5BCC28399E8800D6D824 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E7B098582D114B884693E9 /* Pods-DisherHackathonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +649,7 @@
 		};
 		0D1F5BCD28399E8800D6D824 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D217D0C0F0E3C5E1939A102 /* Pods-DisherHackathonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +670,7 @@
 		};
 		0D1F5BCF28399E8800D6D824 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60B76C28A28BBBA8BD78182 /* Pods-DisherHackathon-DisherHackathonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		0D1F5BD028399E8800D6D824 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70D5E205E368C3C4BB47EE8 /* Pods-DisherHackathon-DisherHackathonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
